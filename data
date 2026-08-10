@@ -1,0 +1,9 @@
+# ===== БАЗА ДАННЫХ (АВТОСОЗДАНИЕ ПАПКИ) =====
+DB_DIR = os.path.join(os.getcwd(), 'data')
+DB_PATH = os.path.join(DB_DIR, 'users.db')
+
+# Если папки data нет — создаём
+if not os.path.exists(DB_DIR):
+    os.makedirs(DB_DIR)
+
+conn = sqlite3.connect(DB_PATH)
