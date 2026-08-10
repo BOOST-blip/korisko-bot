@@ -1,0 +1,9 @@
+meta:
+  name: korisik_bot
+  version: 1.0.0
+  environment: python
+
+build:
+  language: python
+  requirements: requirements.txt
+  command: python bot.py
