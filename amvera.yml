@@ -1,0 +1,11 @@
+meta:
+  name: boost-bot
+  version: 1.0.0
+  environment: python
+
+build:
+  language: python
+  requirements: requirements.txt
+
+run:
+  command: python bot.py
