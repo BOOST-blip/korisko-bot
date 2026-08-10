@@ -1,0 +1,2 @@
+DB_PATH = os.path.join(os.getcwd(), 'data', 'users.db')
+conn = sqlite3.connect(DB_PATH)
